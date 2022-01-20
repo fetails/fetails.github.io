@@ -1,7 +1,7 @@
 # Site settings
-title: Guwi # site title
+title: guwi # site title
 description: >- # site description
-  Guwi is being creative.
+  guwi is being creative.
 lang: en-US # default lang
 timezone: Europe/Stockholm # set your timezone
 image:  # This image used for Open Graph more info https://ogp.me/
@@ -10,7 +10,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Guwi # author name
+  name: guwi # author name
   bio: >- # tell to the world
     ❤️ C / C++ is where it's at. ❤️
   username: username # general username
