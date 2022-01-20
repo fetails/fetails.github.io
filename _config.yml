@@ -21,7 +21,7 @@ author:
   avatar: https://avatars.githubusercontent.com/u/45269692?v=4 # change with your own avatar
 
 # URL settings
-url: "/guwi" #
+url: "/" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
