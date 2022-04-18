@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Skapa ett WoW AddOn"
+title:  "Skapa ett WoW AddOn - pt1"
 date:   2022-04-18 14:53 +0200
 categories: wow
 ---
