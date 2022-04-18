@@ -14,7 +14,22 @@ funktioner.
 
 I denna posten vill jag också visa hur man på enkelt sätt kan hooka scripten till att göra olika grejer.
 
+## Varje AddOn måste ha en .TOC fil.
+Yes, och det är för att berätta för WoW, vad det är för addon som gör vad.
+Ett exempel på en **.toc** fil finns nedan.
+Följande är: `addon.toc`
+```
+## Interface: 90200 <--- nuvarande version av spelet
+## Version: 1.0.0 <--- vilken version du definerar ditt addon på.
+## Title: MittAddon <--- addon titel, vad addonet heter.
+## Notes: Simpelt addon <--- addon beskrivningen.
+## Author: Guwi <--- vem det är som har gjort addonet.
+
+addon.lua <--- Själva addonet.
+```
+
 ## Frame
+**Se till att "addon.lua" ligger i samma map som "addon.toc"**
 Alla funktioner som SKALL ha en användning MED event, ska alltid ha en Frame, då det är genom våran egna frame vi kommer ställa in dem olika eventen.
 Ett exempel här nedanför.
 ```lua
