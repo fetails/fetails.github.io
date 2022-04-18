@@ -29,7 +29,7 @@ addon.lua <--- Själva addonet.
 ```
 
 ## Frame
-**Se till att "addon.lua" ligger i samma map som "addon.toc"**
+**Se till att "addon.lua" ligger i samma mapp som "addon.toc"**
 Alla funktioner som SKALL ha en användning MED event, ska alltid ha en Frame, då det är genom våran egna frame vi kommer ställa in dem olika eventen.
 Ett exempel här nedanför.
 ```lua
