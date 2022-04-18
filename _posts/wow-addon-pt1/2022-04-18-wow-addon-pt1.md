@@ -52,3 +52,5 @@ frame:SetScript("OnEvent", frame.OnEvent)
 ```
 
 **Jag kommer uppdatera posten, när det finns något annat jag har hittat.**
+
+Resurser: [WoWPedia - Create a WoW AddOn in 15 minutes](https://wowpedia.fandom.com/wiki/Create_a_WoW_AddOn_in_15_Minutes)
