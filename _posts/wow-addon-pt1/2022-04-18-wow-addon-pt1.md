@@ -17,16 +17,13 @@ I denna posten vill jag också visa hur man på enkelt sätt kan hooka scripten 
 ## Frame
 Alla funktioner som SKALL ha en användning MED event, ska alltid ha en Frame, då det är genom våran egna frame vi kommer ställa in dem olika eventen.
 Ett exempel här nedanför.
-```
-lua
+```lua
 local frame = CreateFrame("Frame", "NamnPåMinFrame") -- CreateFrame har 5st argument, frame typ, namn, parent, template och id, varav 1 MÅSTE finnas med, vilket är frame typ.
 ```
 
 ## Registrera event
 Ett event som skall registreras kan se ut något såhär.
-```
-lua
-
+```lua
 function frame:OnEvent(event, ...)
     self[event](self,event,...) -- Laddar in alla registrerade event.
 end
