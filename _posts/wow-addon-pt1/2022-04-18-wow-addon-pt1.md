@@ -62,9 +62,12 @@ SlashCmdList.NEWRELOAD = ReloadUI
 ```
 
 Få ut WoW versionen kan göras antingen via macro eller i addon.
+`version, build, date, tocversion = GetBuildInfo()`
 För addon:
 ```lua
-print("wow version: ", select(4, GetBuildInfo())) -- får ut det fjärde argumentet från GetBuildInfo(), vilket är numret.
+-- GetBuildInfo har 4 arguments, men vi är
+-- ute efter det fjärde bara, vilket är tocversion.
+print("wow version: ", select(4, GetBuildInfo()))
 ```
 För macro:
 ```lua
