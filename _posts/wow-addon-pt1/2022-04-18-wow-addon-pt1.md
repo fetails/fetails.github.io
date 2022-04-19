@@ -53,5 +53,23 @@ frame:SetScript("OnEvent", frame.OnEvent)
 
 **Jag kommer uppdatera posten, när det finns något annat jag har hittat.**
 
+## Misc kodning.
+Replicera **/reload**
+Följande kod skapar kommandot **/rl**, som används för att ladda om UI'n.
+```lua
+SLASH_NEWRELOAD1 = "/rl"
+SlashCmdList.NEWRELOAD = ReloadUI
+```
+
+Få ut WoW versionen kan göras antingen via macro eller i addon.
+För addon:
+```lua
+print("wow version: ", select(4, GetBuildInfo())) -- får ut det fjärde argumentet från GetBuildInfo(), vilket är numret.
+```
+För macro:
+```lua
+/run print("wow version: ", select(4,GetBuildInfo()))
+```
+
 ## Resurser
 [WoWPedia - Create a WoW AddOn in 15 minutes](https://wowpedia.fandom.com/wiki/Create_a_WoW_AddOn_in_15_Minutes)
