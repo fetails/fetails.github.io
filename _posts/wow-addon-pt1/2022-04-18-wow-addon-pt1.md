@@ -74,5 +74,23 @@ För macro:
 /run print("wow version: ", select(4,GetBuildInfo()))
 ```
 
+### Units
+Unit kan vara så som: "player", "target", "party2", "pet", etc...
+Få ut spelarens "HP"
+```lua
+-- för macro
+/run print("HP: ",UnitHealth("player"))
+
+-- för addon
+print("HP: ", UnitHealth("player"))
+```
+Få ut spelarens "klass"
+```lua
+-- för macro
+/run print("KLASS: ",UnitClass("player"))
+
+-- för addon
+print("KLASS: ", UnitClass("player"))
+```
 ## Resurser
 [WoWPedia - Create a WoW AddOn in 15 minutes](https://wowpedia.fandom.com/wiki/Create_a_WoW_AddOn_in_15_Minutes)
