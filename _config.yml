@@ -22,7 +22,7 @@ author:
 
 # URL settings
 url: "/" #
-baseurl: http://guwi.lol
+baseurl: https://guwi.lol
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
